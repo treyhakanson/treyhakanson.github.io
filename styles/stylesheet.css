@@ -1,9 +1,14 @@
+* {
+  margin: 0;
+}
+
 html,
 body,
 .Jumbotron {
   height: 100%;
   width: 100%;
   font-size: 16px;
+  font-family: "Karla", sans-serif;
 }
 
 .Jumbotron,
@@ -12,6 +17,7 @@ body,
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .Jumbotron__Upper {
