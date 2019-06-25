@@ -1,0 +1,27 @@
+html,
+body,
+.Jumbotron {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+}
+
+.Jumbotron,
+.Jumbotron__Upper,
+.Jumbotron__lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Jumbotron__Upper {
+  margin-bottom: 1rem;
+}
+
+.Jumbotron__Upper__Icon {
+  font-size: 2rem;
+}
+
+.Jumbotron__Upper__Header {
+  font-size: 1rem;
+}
