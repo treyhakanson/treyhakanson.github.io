@@ -13,7 +13,7 @@ body,
 
 .Jumbotron,
 .Jumbotron__Upper,
-.Jumbotron__lower {
+.Jumbotron__Lower {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,9 +25,39 @@ body,
 }
 
 .Jumbotron__Upper__Icon {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .Jumbotron__Upper__Header {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Jumbotron__Lower__Footnote {
+  color: darkgrey;
+}
+
+.Jumbotron__Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.5rem;
+  background: #d95d00; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #d95d00 0%,
+    #f4a000 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #d95d00 0%,
+    #f4a000 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #d95d00 0%,
+    #f4a000 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d95d00', endColorstr='#f4a000',GradientType=0 ); /* IE6-9 */
 }
