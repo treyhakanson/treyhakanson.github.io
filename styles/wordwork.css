@@ -58,3 +58,11 @@
   appearance: none;
   border-radius: 10px;
 }
+
+#recycle {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  height: 100px;
+  width: 100px;
+}
