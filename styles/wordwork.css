@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Coming Soon", monospace;
+}
+
+#root {
+  height: 100vh;
+  width: 100vh;
+}
+
+#letter-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20vh;
+  background-color: #fafafa;
+  border-right: 2px solid #cecece;
+  overflow: auto;
+  user-select: none;
+}
+
+.letter {
+  font-weight: bolder;
+  text-align: center;
+  user-select: none;
+}
+
+.letter:hover {
+  cursor: move;
+}
+
+.letter--template {
+  font-size: 5rem;
+}
+
+.letter--placed {
+  transform: translate(-50%, -50%);
+  font-size: 12rem;
+}
+
+#clear {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2.5rem;
+  background-color: red;
+  color: white;
+  border: none;
+  appearance: none;
+  border-radius: 10px;
+}
