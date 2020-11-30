@@ -38,7 +38,6 @@
   }
 
   function dragMove(e) {
-    console.log(e);
     if (active === null) {
       return;
     }
