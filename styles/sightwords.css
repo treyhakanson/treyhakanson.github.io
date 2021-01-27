@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Coming Soon", monospace;
+}
+
+#root {
+  padding: 15px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.SightWord {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  border-radius: 5px;
+  background-color: rgb(190, 225, 255);
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.SightWord--active {
+  background-color: rgb(97, 181, 255);
+}
+
+.SightWord__Text {
+  font-size: 4rem;
+  flex-grow: 1;
+}
+
+.SightWord__Megaphone {
+  width: 40px;
+  height: 30px;
+  background-image: url(/assets/megaphone.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position-x: center;
+  background-position-y: calc(100% - 10px);
+  height: 100%;
+}
+
+.SightWord:hover {
+  cursor: pointer;
+}
