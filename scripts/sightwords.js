@@ -19,7 +19,7 @@
     { word: "big", audioResource: "/assets/audio/big.m4a" },
     { word: "black", audioResource: "/assets/audio/black.m4a" },
     { word: "blue", audioResource: "/assets/audio/blue.m4a" },
-    { word: "but", audioResource: "/assets/audio/but.m4a" },
+    { word: "brown", audioResource: "/assets/audio/brown.m4a" },
     { word: "by", audioResource: "/assets/audio/by.m4a" },
     { word: "came", audioResource: "/assets/audio/came.m4a" },
     { word: "can", audioResource: "/assets/audio/can.m4a" },
