@@ -6,19 +6,87 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Trey Hakanson</title>
     <link rel="stylesheet" href="/styles/stylesheet.css" />
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <div class="Jumbotron">
-      <div class="Jumbotron__Upper">
-        <p class="Jumbotron__Upper__Icon">🦊</p>
-        <p class="Jumbotron__Upper__Header">Trey Hakanson</p>
+    <div id="Content">
+      <div class="Jumbotron">
+        <div class="Jumbotron__Upper">
+          <p class="Jumbotron__Upper__Icon">🦊</p>
+          <p class="Jumbotron__Upper__Header">Trey Hakanson</p>
+        </div>
+        <div class="Jumbotron__Lower">
+          <p>Fullstack Software Engineer</p>
+          <div class="Jumbotron__Lower__Links">
+            <a
+              href="https://www.linkedin.com/in/trey-hakanson/"
+              target="_blank"
+            >
+              <i
+                data-feather="linkedin"
+                stroke="#bebebe"
+                width="16"
+                height="16"
+              ></i>
+            </a>
+            <a href="https://github.com/treyhakanson" target="_blank">
+              <i
+                data-feather="github"
+                stroke="#bebebe"
+                width="16"
+                height="16"
+              ></i>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="Jumbotron__Lower">
-        <p>Fullstack developer and UI/UX designer</p>
-        <p class="Jumbotron__Lower__Footnote">New site under construction</p>
+
+      <div class="Apps">
+        <a href="/wordwork.html" class="App__Card">
+          <img
+            class="App__Icon"
+            src="/assets/touch-icons/wordwork-touch-icon-ipad.png"
+            alt="WW"
+          />
+          <div>
+            <p class="App__Card__Title">Word Work</p>
+            <p class="App__Card__Subtitle">
+              A digital whiteboard built for my sister's classroom.
+            </p>
+          </div>
+        </a>
+        <a href="/sightwords.html" class="App__Card">
+          <img
+            class="App__Icon"
+            src="/assets/touch-icons/sightwords-touch-icon-ipad.png"
+            alt="SW"
+          />
+          <div>
+            <p class="App__Card__Title">Sight Words</p>
+            <p class="App__Card__Subtitle">
+              Spoken words for my sister's classroom.
+            </p>
+          </div>
+        </a>
+        <a href="/habittracker.html" class="App__Card">
+          <img class="App__Icon" src="/assets/habittracker.png" alt="SW" />
+          <div>
+            <p class="App__Card__Title">Habit Tracker</p>
+            <p class="App__Card__Subtitle">A simple habit tracker.</p>
+          </div>
+        </a>
       </div>
-      <div class="Jumbotron__Footer"></div>
     </div>
+
+    <div class="Footer"></div>
+
+    <!-- Replace feather icons -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

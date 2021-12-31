@@ -1,14 +1,24 @@
 * {
   margin: 0;
+  color: #232323;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
 }
 
 html,
-body,
-.Jumbotron {
+body {
+  height: 100%;
+}
+
+#Content {
   height: 100%;
   width: 100%;
-  font-size: 16px;
-  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
 }
 
 .Jumbotron,
@@ -21,7 +31,7 @@ body,
 }
 
 .Jumbotron__Upper {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .Jumbotron__Upper__Icon {
@@ -33,11 +43,66 @@ body,
   font-weight: bold;
 }
 
-.Jumbotron__Lower__Footnote {
-  color: darkgrey;
+.Jumbotron__Lower__Links {
+  margin-top: 8px;
 }
 
-.Jumbotron__Footer {
+.Jumbotron__Lower__Links a {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.Jumbotron__Lower__Links a:last-of-type {
+  margin-right: 0;
+}
+
+.Apps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 25px;
+  row-gap: 25px;
+  width: 100%;
+  max-width: 900px;
+  margin: 25px auto 0;
+}
+
+@media (max-width: 825px) {
+  .Apps {
+    grid-template-columns: 1fr;
+  }
+}
+
+.App__Card {
+  box-shadow: 0px 0px 5px 0px rgba(32, 32, 32, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+  color: #232323 !important;
+  transition: 250ms ease-in-out;
+  background-color: white;
+}
+
+.App__Card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(32, 32, 32, 0.2);
+  transform: scale(1.05);
+}
+
+.App__Icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: block;
+  margin-right: 15px;
+}
+
+.App__Card__Subtitle {
+  color: #bebebe;
+  font-size: 12px;
+}
+
+.Footer {
   position: absolute;
   bottom: 0;
   left: 0;
