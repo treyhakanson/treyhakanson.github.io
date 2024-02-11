@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Valentines Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/vday.css" />
+  </head>
+  <body>
+    <div>
+      <iframe
+        src="https://giphy.com/embed/gDfteqLchLcRTtjAD7"
+        width="480"
+        height="369"
+        frameborder="0"
+        class="giphy-embed"
+        id="jif"
+        allowfullscreen
+      ></iframe>
+      <h1>Will you be my valentine?</h1>
+      <div class="options">
+        <div class="correct-options">
+          <button class="btn yes" id="yes">Yes</button>
+          <button class="btn also-yes" id="also-yes">Also Yes</button>
+        </div>
+        <details class="bitch-options">
+          <summary>Bitch Options</summary>
+          <button
+            class="btn no"
+            onclick="alert('This option is unavailable in your current lifetime.')"
+          >
+            No
+          </button>
+        </details>
+      </div>
+    </div>
+    <script src="/scripts/vday.js"></script>
+  </body>
+</html>
